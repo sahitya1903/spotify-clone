@@ -298,11 +298,18 @@ a{
 .icon{
     height: 50%;
     padding: 1.5rem 0 1.5rem 0;
+    opacity: 0.8;
+    transition: transform 0.15s ease, opacity 0.15s ease; 
+}
+
+.icon:hover{
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 .icon1{
-    height: 35%;
-    margin: 0 0.5rem 0.35rem 0;    
+    height: 26px;
+    margin: 0 0.5rem 0.35rem 0;  
 }
 
 .controls{
