@@ -272,3 +272,63 @@ a{
     border-radius: 50%;
     margin-top: -6px;
 }
+
+.album{
+    display: flex;
+    height: 100%;
+    line-height: 0.7;
+}
+
+.album-info{
+    margin: 0 1.5rem 0 1.5rem;
+    align-items: center;
+
+}
+
+.info1{
+    padding-top: 0.75rem;
+    font-weight: 600;
+}
+
+.info2{
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.icon{
+    height: 50%;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.icon1{
+    height: 35%;
+    margin: 0 0.5rem 0.35rem 0;    
+}
+
+.controls{
+    display: flex;
+}
+
+.control-img {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.con-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.con-icon:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.i1,.i2{
+    height: 72px;
+}
